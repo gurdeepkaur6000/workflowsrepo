@@ -10,3 +10,13 @@ jobs:
         run: echo 'hi'
       - name: yellow
         run: echo 'bie'
+        
+  job2:
+    name: job2name
+    runs-on: ubuntu-latest
+    steps:
+      - name: hostname run
+        run: hostname
+      - name: wrirte
+        run: echo 'hello'
+  
