@@ -1,1 +1,11 @@
 name:first-workflow
+  on:push
+    jobs:
+      job1:
+        name:job1name
+        runs-on:'ubunto-latest'
+          steps:
+            -name : hwllo
+            run: echo 'hi';
+            -name: yello
+            run: echo 'bie';
