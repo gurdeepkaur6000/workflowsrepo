@@ -19,7 +19,7 @@ jobs:
         run: hostname
       - name: wrirte
         run: echo 'hello'
- job3:
+  job3:
     name: job3name
     needs: [job1,job2]
     runs-on: ubuntu-latest
